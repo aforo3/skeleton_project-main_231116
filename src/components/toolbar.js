@@ -10,7 +10,7 @@ import './toolbar.css';
 
 function ColorSchemesExample() {
   const navbarStyle = {
-    backgroundColor: '#8B8B8B',
+    backgroundColor: 'white',
     color: 'black',
     height: '110px',
   };
@@ -19,18 +19,15 @@ function ColorSchemesExample() {
     <>
       
 
-      <Navbar style={navbarStyle} variant="light">
+      <Navbar className="navBar" style={navbarStyle} variant="light">
         <Container fluid>
 
-          <Nav className="buying">
+          <Nav className="nav-container">
+
           <Nav.Link href="#home">찾아줘</Nav.Link>
-          </Nav>
 
-          <Nav className="freeBie">
           <Nav.Link href="#home">나눠요</Nav.Link>
-          </Nav>
 
-          <Nav className="community">
           <Nav.Link href="#home">공유해요</Nav.Link>
           </Nav>
 

@@ -56,6 +56,8 @@
   text-align: center;
   float: none; 
   margin: 0 auto;
+  margin-bottom: -25px;
+  
   
 }
 #footer2{
@@ -63,3 +65,11 @@
   float: none; 
   margin: 0 auto;
 } 
+
+.phrase img{
+  padding-top: 50px;
+  height: 250px;
+  width: 60%;
+  margin: auto;
+  display: block;
+}
